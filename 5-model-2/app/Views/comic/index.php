@@ -22,7 +22,7 @@
                             <td>
                                 <img src="/img/<?= $comic['sampul']; ?>" alt="" class="sampul">
                             </td>
-                            <td><?= $comic['judul']; ?></td>
+                            <td><?= $comic['name']; ?></td>
                             <td>
                                 <a href="/comic/<?= $comic['slug']; ?>" class="btn btn-sm btn-success">detail</a>
                             </td>
